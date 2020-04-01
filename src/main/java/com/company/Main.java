@@ -11,4 +11,16 @@ public class Main {
         System.out.println("TEST");
     }
 
+    private static void sortInsert(int[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+            for (int j = i; j > 0; j--) {
+                if (arr[j - 1] > arr[j]) {
+                    swap(arr, j, j - 1);
+                } else {
+                    break;
+                }
+            }
+        }
+    }
+
 }
