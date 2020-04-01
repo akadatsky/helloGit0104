@@ -11,6 +11,12 @@ public class Main {
         System.out.println("TEST");
     }
 
+    /**
+     *
+     * @param arr
+     * @param begin
+     * @param end
+     */
     private static void quickSort(int[] arr, int begin, int end) {
         if (begin < end) {
             int partitionIndex = partition(arr, begin, end);
