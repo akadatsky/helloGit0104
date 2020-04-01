@@ -11,6 +11,10 @@ public class Main {
         System.out.println("TEST");
     }
 
+    /**
+     *
+     * @param arr
+     */
     private static void sortInsert(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             for (int j = i; j > 0; j--) {
