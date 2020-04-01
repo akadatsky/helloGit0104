@@ -8,7 +8,7 @@ public class Main {
 
     // test
     public static void main(String[] args) {
-        System.out.println("TEST");
+        System.out.println("HELLO");
     }
 
     private static void sortBubble(int[] arr) {
