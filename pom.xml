@@ -13,5 +13,9 @@
     <artifactId>helloGit0104</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+
+    </dependencies>
+
 
 </project>
